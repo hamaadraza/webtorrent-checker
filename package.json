@@ -23,7 +23,7 @@
     "test": "standard",
     "build": "npm run build-js",
     "build-js": "browserify client -p esmify > static/bundle.js",
-    "start": "nodejs server/index.js"
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",

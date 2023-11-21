@@ -9,5 +9,5 @@ exports.isProd = isProd
 * Server listening port
 **/
 exports.port = isProd
-  ? 4000
-  : 4000
+  ? 3033
+  : 3033
